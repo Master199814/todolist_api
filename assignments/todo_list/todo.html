@@ -1,13 +1,16 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Todo List</title>
     </head>
     <body>
         <div>
-            <input type='text' name='todo_input'>
-            <button type='submit'>Add Todo</button>
-            <div class='todos'></div>
+            <input type="text" name="todo_input">
+            <button type="submit">Add Todo</button>
+            <div class="todos"></div>
+            <span id="completed" style="display: inline-block;width:48%; vertical-align: top; "><h1 style="color: green">Completed</h1></span>
+            <span id="pending" style="display: inline-block;width:48%; "><h1 style="color:red">Pending</h1></span>
         </div>
     </body>
-    <script src='./script.js'></script>
+    <script src="./script.js"></script>
 </html>
